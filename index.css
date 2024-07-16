@@ -1,0 +1,110 @@
+
+
+main
+{
+    background-color: #ffe98f;
+    padding: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+body
+{
+    margin: auto auto 100px;
+    width: 80%;
+    background-color: #fffacd;
+    font-family: 'Old Standard TT';
+}
+
+#changeColor:checked ~ main
+{
+    
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#changeFont:not(:checked) ~ main
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#font-size-small:checked ~ main
+{
+    font-size: .8em;
+}
+
+#font-size-large:checked ~ main
+{
+    font-size: 1.2em;
+}
+
+h1 
+{
+    text-shadow: 5px 5px 5px #ff0000;
+    text-align: center;
+    border-bottom: 2px solid;
+    margin: 5% 0% 5%;
+}
+
+h2
+{
+    hyphens: auto;
+    text-align: center;
+}
+
+article img 
+{
+    width: 100%;
+}
+
+
+
+p
+{
+    margin: 2px 0 0;
+}
+
+.quote 
+{
+    border: 2px solid;
+}
+
+.columns 
+{
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-rule: 1px solid #000;
+    column-gap: 50px;
+}
+
+.firstParagraph::first-letter {
+    color: #ff0202;   
+	font-size: 70px;
+	line-height: 60px;    
+	vertical-align: top;
+	display: inline-block;
+	float: left;
+	margin: 0 10px 0 0;
+
+}
+
+
+.sign 
+{
+    float: right; 
+    border: 1px solid #333; 
+    padding: 7px; 
+    margin: 10px 0 5px 5px; 
+}
+
+.sign figcaption
+{
+    margin: 0 auto 5px; 
+    text-align: center;
+}
+
+footer
+{
+    text-align: right;
+    font-size: 0.8em;
+}

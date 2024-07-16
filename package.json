@@ -6,9 +6,9 @@
   },
   "dependencies": {
     "html-tests": "1.0.2",
-    "html-validator-cli": "3.0.2",
+    "html-validator-cli": "7.0.1",
     "htmllint-cli-alpha": "0.0.6",
-    "mocha": "3.1.0",
+    "mocha": "10.6.0",
     "should": "11.1.0",
     "stylelint": "7.3.1",
     "stylelint-config-hrundel": "1.0.3"
